@@ -69,6 +69,10 @@ img {
 }
 
 .contacts {
+    display: flex;
+}
+
+.contacts-list {
     font-style: normal;
     display: flex;
     gap: 40px;
@@ -191,7 +195,7 @@ img {
 }
 
 .what-we-are-doing-item {
-    width: calc((100%-48px)/3)
+    width: calc((100%-48px)/2)
 }
 
 .our-team-list {
@@ -211,12 +215,17 @@ img {
     letter-spacing: 0.04em;
     color: var(--cta-main-color);
     cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 4px;
+    justify-content: center;
+
 }
 
 .filter-button:hover,
 .filter-button:focus {
     color: #FFFFFF;
     background-color: #404bbf;
+    border: 1px solid transparent;
 }
 
 .filter-button:active {
@@ -230,7 +239,7 @@ img {
 
 .member-team {
     background-color: #ffffff;
-    width: calc((100%-72px)/4);
+    width: calc((100%-24px*3)/4);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -293,4 +302,35 @@ img {
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.filters-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 72px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.service-item {
+    width: calc((100-48px)/3)
+}
+
+.app-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }

@@ -7,6 +7,8 @@
     <title>portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
@@ -34,70 +36,94 @@
     </header>
 
     <main>
-        <section>
-            <h1>header1 </h1>
-            <ul class="list">
-                <li><button class="filter-button" type="button">All</button></li>
-                <li><button class="filter-button" type="button">Web Site</button></li>
-                <li><button class="filter-button" type="button">App</button></li>
-                <li><button class="filter-button" type="button">Design</button></li>
-                <li><button class="filter-button" type="button">Marketing</button></li>
-            </ul>
-            <ul class="list">
-                <li><a class=link>
-                        <img src="./images/banking-app.jpg" alt="Banking app interface concept" width=360
-                            height="300" />
-                        <h2 class="category-title">Banking App Interface Concept</h2>
-                        <p class="main-text">App</p>
-                    </a>
+        <section class="portfolio">
+            <div class="container">
+                <h1 class="visually-hidden">header1 </h1>
+                <ul class="filters-list list">
+                    <li><button class="filter-button" type="button">All</button></li>
+                    <li><button class="filter-button" type="button">Web Site</button></li>
+                    <li><button class="filter-button" type="button">App</button></li>
+                    <li><button class="filter-button" type="button">Design</button></li>
+                    <li><button class="filter-button" type="button">Marketing</button></li>
+                </ul>
+                <ul class="services-list list">
+                    <li class="service-item"><a class="link">
+                            <img src="./images/banking-app.jpg" alt="Banking app interface concept" width=360
+                                height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Banking App Interface Concept</h2>
+                                <p class="main-text">App</p>
+                            </div>
+                        </a>
 
-                </li>
-                <li><a class="link"><img src="./images/cashless-payment.jpg" alt="Cashles spayment" width=360
-                            height="300" />
-                        <h2 class="category-title">Cashless Payment</h2>
-                        <p class="main-text">Marketing</p>
-                    </a>
-                </li>
-                <li><a class="link"><img src="./images/mediation-app.jpg" alt="meditation app" width=360 height="300" />
-                        <h2 class="category-title">Meditation App</h2>
-                        <p class="main-text">App</p>
-                    </a>
-                </li>
-                <li><a class="link"><img src="./images/taxi-service.jpg" alt="Taxi service" width=360 height="300" />
-                        <h2 class="category-title">Taxi Service</h2>
-                        <p class="main-text">Marketing</p>
-                    </a>
-                </li>
-                <li><a class="link"><img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" width=360
-                            height="300" />
-                        <h2 class="category-title">Screen Illustrations</h2>
-                        <p class="main-text">Design</p>
-                    </a>
-                </li>
-                <li><a class="link"><img src="./images/online-courses.jpg" alt="Online Courses" width=360
-                            height="300" />
-                        <h2 class="category-title">Online Courses</h2>
-                        <p class="main-text">Marketing</p>
-                    </a>
-                </li>
-                <li><a class="link"><img src="./images/instagram-stories-concept.jpg" alt="Instagram Stories Concept"
-                            width=360 height="300" />
-                        <h2 class="category-title">Instagram Stories Concept</h2>
-                        <p class="main-text">Design</p>
-                    </a>
-                </li>
-                <li><a class="link"><img src="./images/organic-food.jpg" alt="Organic Food" width=360 height="300" />
-                        <h2 class="category-title">Organic Food</h2>
-                        <p class="main-text">Web Site</p>
-                    </a>
-                </li>
-                <li><a class="link"><img src="./images/fresh-coffee.jpg" alt="Fresh Coffee" width=360 height="300" />
-                        <h2 class="category-title">Fresh Coffee</h2>
-                        <p class="main-text">Web Site</p>
-                    </a>
-                </li>
+                    </li>
+                    <li class="service-item"><a class="link"><img src="./images/cashless-payment.jpg"
+                                alt="Cashles spayment" width=360 height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Cashless Payment</h2>
+                                <p class="main-text">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="service-item"><a class="link"><img src="./images/mediation-app.jpg" alt="meditation app"
+                                width=360 height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Meditation App</h2>
+                                <p class="main-text">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="service-item"><a class="link"><img src="./images/taxi-service.jpg" alt="Taxi service"
+                                width=360 height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Taxi Service</h2>
+                                <p class="main-text">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="service-item"><a class="link"><img src="./images/screen-illustrations.jpg"
+                                alt="Screen Illustrations" width=360 height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Screen Illustrations</h2>
+                                <p class="main-text">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="service-item"><a class="link"><img src="./images/online-courses.jpg" alt="Online Courses"
+                                width=360 height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Online Courses</h2>
+                                <p class="main-text">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="service-item"><a class="link"><img src="./images/instagram-stories-concept.jpg"
+                                alt="Instagram Stories Concept" width=360 height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Instagram Stories Concept</h2>
+                                <p class="main-text">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="service-item"><a class="link"><img src="./images/organic-food.jpg" alt="Organic Food"
+                                width=360 height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Organic Food</h2>
+                                <p class="main-text">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="service-item"><a class="link"><img src="./images/fresh-coffee.jpg" alt="Fresh Coffee"
+                                width=360 height="300" />
+                            <div class="app-container">
+                                <h2 class="category-title">Fresh Coffee</h2>
+                                <p class="main-text">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
 
-            </ul>
+                </ul>
+            </div>
         </section>
 
     </main>
